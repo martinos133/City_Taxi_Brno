@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --taxi-gold: #c9a227;
+  --taxi-dark: #0f1419;
+  --taxi-charcoal: #1a2332;
+  --taxi-cream: #f5f0e6;
+  --font-display: "DM Sans", system-ui, sans-serif;
+  --font-body: "Source Sans 3", system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-taxi-dark text-taxi-cream antialiased;
+  font-feature-settings: "ss01", "ss02", "cv01", "cv02";
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Subtle gradient overlays */
+.gradient-hero {
+  background: linear-gradient(135deg, var(--taxi-charcoal) 0%, var(--taxi-dark) 50%, #0a0e12 100%);
+}
+
+.gradient-card {
+  background: linear-gradient(180deg, rgba(45, 58, 79, 0.6) 0%, rgba(26, 35, 50, 0.9) 100%);
+}
+
+.gold-glow {
+  box-shadow: 0 0 40px -10px rgba(201, 162, 39, 0.3);
+}
