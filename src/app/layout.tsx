@@ -25,6 +25,7 @@ const navItems = [
   { href: "/konkurenti", label: "Konkurenti" },
   { href: "/city-taxi", label: "City Taxi" },
   { href: "/porovnanie", label: "Porovnanie" },
+  { href: "/strategia", label: "Stratégia" },
 ];
 
 export default function RootLayout({
@@ -43,7 +44,7 @@ export default function RootLayout({
             >
               City Taxi Brno
             </Link>
-            <nav className="flex gap-1 sm:gap-2">
+            <nav className="flex items-center gap-1 sm:gap-2">
               {navItems.map(({ href, label }) => (
                 <Link
                   key={href}
@@ -53,6 +54,12 @@ export default function RootLayout({
                   {label}
                 </Link>
               ))}
+              <Link
+                href="/becode"
+                className="ml-2 rounded-xl bg-taxi-gold px-4 py-2 text-sm font-semibold text-taxi-dark shadow-md transition hover:bg-taxi-amber hover:shadow-lg"
+              >
+                Prečo BeCode
+              </Link>
             </nav>
           </div>
         </header>

@@ -29,12 +29,18 @@ export default function HomePage() {
           >
             Porovnanie
           </Link>
+          <Link
+            href="/strategia"
+            className="inline-flex items-center rounded-xl border border-taxi-slate bg-taxi-slate/20 px-6 py-3 font-semibold text-taxi-cream transition hover:bg-taxi-slate/40"
+          >
+            Stratégia
+          </Link>
         </div>
       </div>
 
-      <section className="mx-auto mt-20 max-w-4xl">
+      <section className="mx-auto mt-20 max-w-5xl">
         <h2 className="text-xl font-semibold text-taxi-cream sm:text-2xl">Čo tu nájdete</h2>
-        <div className="mt-6 grid gap-6 sm:grid-cols-3">
+        <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           <div className="gradient-card gold-glow rounded-2xl border border-taxi-slate/50 p-6">
             <div className="text-2xl font-bold text-taxi-gold">10</div>
             <h3 className="mt-1 font-semibold text-taxi-cream">Konkurenti</h3>
@@ -59,10 +65,20 @@ export default function HomePage() {
             <div className="text-2xl font-bold text-taxi-gold">VS</div>
             <h3 className="mt-1 font-semibold text-taxi-cream">Porovnanie</h3>
             <p className="mt-2 text-sm text-taxi-cream/70">
-              Ako sa City Taxi odlišuje oproti Top1Taxi, Lido Taxi a Taxi Impuls.
+              Ako sa City Taxi odlišuje oproti Top1Taxi, Lido Taxi a Taxi Impuls. Porovnajte ľubovoľné dve firmy.
             </p>
             <Link href="/porovnanie" className="mt-4 inline-block text-sm font-medium text-taxi-gold hover:underline">
               Prejsť na porovnanie →
+            </Link>
+          </div>
+          <div className="gradient-card rounded-2xl border border-taxi-slate/50 p-6">
+            <div className="text-2xl font-bold text-taxi-gold">6</div>
+            <h3 className="mt-1 font-semibold text-taxi-cream">Stratégia</h3>
+            <p className="mt-2 text-sm text-taxi-cream/70">
+              Strategické odporúčania, ako ovládnuť brnianske ulice: City Community, personalizácia, biznis, zero-click, bezpečnosť, odvážny sľub.
+            </p>
+            <Link href="/strategia" className="mt-4 inline-block text-sm font-medium text-taxi-gold hover:underline">
+              Prejsť na stratégiu →
             </Link>
           </div>
         </div>
