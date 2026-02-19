@@ -1,40 +1,68 @@
 {
   "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-8ba84ef1834fb9ff.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-ebd51be49873d76c.js",
+      "static/chunks/main-app-aceb73d6ac70ef15.js",
+      "static/chunks/app/_not-found/page-e3f6f1e5699d53c8.js"
+    ],
     "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
+      "static/chunks/webpack-8ba84ef1834fb9ff.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-ebd51be49873d76c.js",
+      "static/chunks/main-app-aceb73d6ac70ef15.js",
+      "static/css/bb30d2ef162eb865.css",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/app/layout-b4ac9f37cfac4548.js"
     ],
     "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
-    ],
-    "/konkurenti/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/konkurenti/page.js"
-    ],
-    "/city-taxi/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/city-taxi/page.js"
-    ],
-    "/porovnanie/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/porovnanie/page.js"
-    ],
-    "/strategia/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/strategia/page.js"
+      "static/chunks/webpack-8ba84ef1834fb9ff.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-ebd51be49873d76c.js",
+      "static/chunks/main-app-aceb73d6ac70ef15.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/app/page-eaa4121521664325.js"
     ],
     "/becode/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/becode/page.js"
+      "static/chunks/webpack-8ba84ef1834fb9ff.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-ebd51be49873d76c.js",
+      "static/chunks/main-app-aceb73d6ac70ef15.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/app/becode/page-eaa4121521664325.js"
+    ],
+    "/city-taxi/page": [
+      "static/chunks/webpack-8ba84ef1834fb9ff.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-ebd51be49873d76c.js",
+      "static/chunks/main-app-aceb73d6ac70ef15.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/app/city-taxi/page-eaa4121521664325.js"
+    ],
+    "/strategia/page": [
+      "static/chunks/webpack-8ba84ef1834fb9ff.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-ebd51be49873d76c.js",
+      "static/chunks/main-app-aceb73d6ac70ef15.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/app/strategia/page-eaa4121521664325.js"
+    ],
+    "/porovnanie/page": [
+      "static/chunks/webpack-8ba84ef1834fb9ff.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-ebd51be49873d76c.js",
+      "static/chunks/main-app-aceb73d6ac70ef15.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/app/porovnanie/page-d3ffdfc41ffd7eb0.js"
+    ],
+    "/konkurenti/page": [
+      "static/chunks/webpack-8ba84ef1834fb9ff.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-ebd51be49873d76c.js",
+      "static/chunks/main-app-aceb73d6ac70ef15.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/app/konkurenti/page-eaa4121521664325.js"
     ]
   }
 }
