@@ -10,28 +10,28 @@ export default function HomePage() {
         <p className="mt-4 animate-fade-in text-lg text-taxi-cream/80 [animation-delay:0.1s] sm:text-xl">
           Prehľad konkurencie a odporúčania pre <strong className="text-taxi-gold">City Taxi Brno</strong>
         </p>
-        <div className="mt-10 flex flex-wrap justify-center gap-4">
+        <div className="mt-10 flex flex-wrap justify-center gap-3 sm:gap-4">
           <Link
             href="/konkurenti"
-            className="gold-glow inline-flex items-center rounded-xl bg-taxi-gold px-6 py-3 font-semibold text-taxi-dark transition hover:bg-taxi-amber"
+            className="gold-glow inline-flex min-h-[48px] items-center justify-center rounded-xl bg-taxi-gold px-5 py-3 font-semibold text-taxi-dark transition hover:bg-taxi-amber sm:px-6"
           >
             10 konkurentov
           </Link>
           <Link
             href="/city-taxi"
-            className="inline-flex items-center rounded-xl border border-taxi-gold/50 bg-transparent px-6 py-3 font-semibold text-taxi-gold transition hover:bg-taxi-gold/10"
+            className="inline-flex min-h-[48px] items-center justify-center rounded-xl border border-taxi-gold/50 bg-transparent px-5 py-3 font-semibold text-taxi-gold transition hover:bg-taxi-gold/10 sm:px-6"
           >
             Analýza City Taxi
           </Link>
           <Link
             href="/porovnanie"
-            className="inline-flex items-center rounded-xl border border-taxi-slate bg-taxi-slate/20 px-6 py-3 font-semibold text-taxi-cream transition hover:bg-taxi-slate/40"
+            className="inline-flex min-h-[48px] items-center justify-center rounded-xl border border-taxi-slate bg-taxi-slate/20 px-5 py-3 font-semibold text-taxi-cream transition hover:bg-taxi-slate/40 sm:px-6"
           >
             Porovnanie
           </Link>
           <Link
             href="/strategia"
-            className="inline-flex items-center rounded-xl border border-taxi-slate bg-taxi-slate/20 px-6 py-3 font-semibold text-taxi-cream transition hover:bg-taxi-slate/40"
+            className="inline-flex min-h-[48px] items-center justify-center rounded-xl border border-taxi-slate bg-taxi-slate/20 px-5 py-3 font-semibold text-taxi-cream transition hover:bg-taxi-slate/40 sm:px-6"
           >
             Stratégia
           </Link>
@@ -40,8 +40,8 @@ export default function HomePage() {
 
       <section className="mx-auto mt-20 max-w-5xl">
         <h2 className="text-xl font-semibold text-taxi-cream sm:text-2xl">Čo tu nájdete</h2>
-        <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-          <div className="gradient-card gold-glow rounded-2xl border border-taxi-slate/50 p-6">
+        <div className="mt-6 grid gap-4 sm:grid-cols-2 sm:gap-6 lg:grid-cols-4">
+          <div className="gradient-card gold-glow rounded-2xl border border-taxi-slate/50 p-4 sm:p-6">
             <div className="text-2xl font-bold text-taxi-gold">10</div>
             <h3 className="mt-1 font-semibold text-taxi-cream">Konkurenti</h3>
             <p className="mt-2 text-sm text-taxi-cream/70">
@@ -51,7 +51,7 @@ export default function HomePage() {
               Prejsť na konkurentov →
             </Link>
           </div>
-          <div className="gradient-card rounded-2xl border border-taxi-slate/50 p-6">
+          <div className="gradient-card rounded-2xl border border-taxi-slate/50 p-4 sm:p-6">
             <div className="text-2xl font-bold text-taxi-gold">City Taxi</div>
             <h3 className="mt-1 font-semibold text-taxi-cream">Analýza klienta</h3>
             <p className="mt-2 text-sm text-taxi-cream/70">
@@ -61,7 +61,7 @@ export default function HomePage() {
               Prejsť na analýzu →
             </Link>
           </div>
-          <div className="gradient-card rounded-2xl border border-taxi-slate/50 p-6">
+          <div className="gradient-card rounded-2xl border border-taxi-slate/50 p-4 sm:p-6">
             <div className="text-2xl font-bold text-taxi-gold">VS</div>
             <h3 className="mt-1 font-semibold text-taxi-cream">Porovnanie</h3>
             <p className="mt-2 text-sm text-taxi-cream/70">
@@ -71,7 +71,7 @@ export default function HomePage() {
               Prejsť na porovnanie →
             </Link>
           </div>
-          <div className="gradient-card rounded-2xl border border-taxi-slate/50 p-6">
+          <div className="gradient-card rounded-2xl border border-taxi-slate/50 p-4 sm:p-6">
             <div className="text-2xl font-bold text-taxi-gold">6</div>
             <h3 className="mt-1 font-semibold text-taxi-cream">Stratégia</h3>
             <p className="mt-2 text-sm text-taxi-cream/70">

@@ -17,7 +17,7 @@ export default function PorovnaniePage() {
         >
           ← Späť na úvod
         </Link>
-        <h1 className="mt-4 text-3xl font-bold tracking-tight text-taxi-cream sm:text-4xl">
+        <h1 className="mt-4 text-2xl font-bold tracking-tight text-taxi-cream sm:text-3xl md:text-4xl">
           Porovnanie s konkurenciou
         </h1>
         <p className="mt-2 text-taxi-cream/80">
@@ -57,8 +57,8 @@ export default function PorovnaniePage() {
           Stručné porovnanie poslania a cieľovky
         </p>
 
-        <div className="mt-6 overflow-x-auto">
-          <table className="w-full min-w-[640px] border-collapse">
+        <div className="mt-6 -mx-4 overflow-x-auto px-4 sm:mx-0 sm:px-0">
+          <table className="w-full min-w-[640px] border-collapse text-sm sm:text-base">
             <thead>
               <tr className="border-b border-taxi-slate/50">
                 <th className="pb-3 pr-4 text-left text-xs font-semibold uppercase tracking-wider text-taxi-gold">

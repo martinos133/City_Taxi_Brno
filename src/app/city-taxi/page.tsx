@@ -18,7 +18,7 @@ export default function CityTaxiPage() {
         >
           ← Späť na úvod
         </Link>
-        <h1 className="mt-4 text-3xl font-bold tracking-tight text-taxi-cream sm:text-4xl">
+        <h1 className="mt-4 text-2xl font-bold tracking-tight text-taxi-cream sm:text-3xl md:text-4xl">
           Analýza klienta: City Taxi Brno
         </h1>
         <p className="mt-2 text-taxi-cream/80">
@@ -26,13 +26,13 @@ export default function CityTaxiPage() {
         </p>
       </div>
 
-      <section className="mb-12 rounded-2xl border border-taxi-slate/50 bg-taxi-charcoal/50 p-6 sm:p-8">
+      <section className="mb-8 rounded-2xl border border-taxi-slate/50 bg-taxi-charcoal/50 p-4 sm:mb-12 sm:p-6 md:p-8">
         <h2 className="text-lg font-semibold text-taxi-gold">Aktuálny positioning</h2>
         <p className="mt-3 text-taxi-cream/90">{positioning}</p>
       </section>
 
-      <div className="grid gap-8 lg:grid-cols-2">
-        <section className="rounded-2xl border border-emerald-500/30 bg-emerald-500/5 p-6 sm:p-8">
+      <div className="grid gap-6 sm:gap-8 lg:grid-cols-2">
+        <section className="rounded-2xl border border-emerald-500/30 bg-emerald-500/5 p-4 sm:p-6 md:p-8">
           <h2 className="text-lg font-semibold text-emerald-400">Silné stránky</h2>
           <ul className="mt-4 space-y-3">
             {strengths.map((s, i) => (
@@ -44,7 +44,7 @@ export default function CityTaxiPage() {
           </ul>
         </section>
 
-        <section className="rounded-2xl border border-amber-500/30 bg-amber-500/5 p-6 sm:p-8">
+        <section className="rounded-2xl border border-amber-500/30 bg-amber-500/5 p-4 sm:p-6 md:p-8">
           <h2 className="text-lg font-semibold text-amber-400">Slabé stránky</h2>
           <ul className="mt-4 space-y-3">
             {weaknesses.map((w, i) => (
@@ -57,7 +57,7 @@ export default function CityTaxiPage() {
         </section>
       </div>
 
-      <section className="mt-8 rounded-2xl border border-taxi-gold/30 bg-taxi-gold/5 p-6 sm:p-8">
+      <section className="mt-8 rounded-2xl border border-taxi-gold/30 bg-taxi-gold/5 p-4 sm:p-6 md:p-8">
         <h2 className="text-lg font-semibold text-taxi-gold">Príležitosti na zlepšenie a odporúčania</h2>
         <ul className="mt-4 space-y-4">
           {opportunities.map((o, i) => (
@@ -71,7 +71,7 @@ export default function CityTaxiPage() {
         </ul>
       </section>
 
-      <section className="mt-8 rounded-2xl border border-taxi-slate/50 p-6 sm:p-8">
+      <section className="mt-8 rounded-2xl border border-taxi-slate/50 p-4 sm:p-6 md:p-8">
         <h2 className="text-lg font-semibold text-taxi-cream">Porovnanie v skratke</h2>
         <div className="mt-4 space-y-3">
           {comparison.map((c, i) => (
@@ -86,16 +86,16 @@ export default function CityTaxiPage() {
         </div>
       </section>
 
-      <div className="mt-12 flex flex-wrap justify-center gap-4">
+      <div className="mt-10 flex flex-wrap justify-center gap-3 sm:mt-12 sm:gap-4">
         <Link
           href="/konkurenti"
-          className="rounded-xl border border-taxi-slate bg-taxi-slate/20 px-6 py-3 font-semibold text-taxi-cream transition hover:bg-taxi-slate/40"
+          className="min-h-[48px] rounded-xl border border-taxi-slate bg-taxi-slate/20 px-5 py-3 font-semibold text-taxi-cream transition hover:bg-taxi-slate/40 sm:px-6"
         >
           Späť na konkurentov
         </Link>
         <Link
           href="/porovnanie"
-          className="inline-flex items-center gap-2 rounded-xl bg-taxi-gold px-6 py-3 font-semibold text-taxi-dark transition hover:bg-taxi-amber"
+          className="inline-flex min-h-[48px] items-center gap-2 rounded-xl bg-taxi-gold px-5 py-3 font-semibold text-taxi-dark transition hover:bg-taxi-amber sm:px-6"
         >
           Celé porovnanie →
         </Link>

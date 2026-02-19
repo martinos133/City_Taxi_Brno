@@ -20,6 +20,15 @@ body {
   font-feature-settings: "ss01", "ss02", "cv01", "cv02";
 }
 
+/* Responzivita: zabránenie horizontálnemu pretečeniu, lámanie dlhých slov/URL */
+main {
+  @apply min-w-0;
+}
+a, p, li, td, th {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

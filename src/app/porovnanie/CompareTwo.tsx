@@ -14,13 +14,13 @@ export function CompareTwo() {
   const showComparison = firmA && firmB && idA !== idB;
 
   return (
-    <section className="mb-12 rounded-2xl border border-taxi-slate/50 bg-taxi-charcoal/30 p-6 sm:p-8">
+    <section className="mb-8 rounded-2xl border border-taxi-slate/50 bg-taxi-charcoal/30 p-4 sm:mb-12 sm:p-6 md:p-8">
       <h2 className="text-xl font-semibold text-taxi-gold">Porovnaj dve firmy medzi sebou</h2>
       <p className="mt-1 text-sm text-taxi-cream/70">
         Vyberte dve taxislužby a zobrazí sa ich detailné porovnanie.
       </p>
 
-      <div className="mt-6 flex flex-wrap items-end gap-4 sm:gap-6">
+      <div className="mt-6 flex flex-col gap-4 sm:flex-row sm:flex-wrap sm:items-end sm:gap-6">
         <CompareSelect
           id="compare-a"
           label="Prvá firma"
@@ -30,7 +30,7 @@ export function CompareTwo() {
           onChange={setIdA}
           disabledIds={idB ? [idB] : []}
         />
-        <div className="flex shrink-0 items-center pb-3">
+        <div className="flex shrink-0 items-center justify-center py-1 sm:pb-3">
           <span className="rounded-full bg-taxi-slate/50 px-3 py-1 text-sm font-semibold text-taxi-gold">
             vs
           </span>

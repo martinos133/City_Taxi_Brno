@@ -19,7 +19,7 @@ export default function BecodePage() {
         >
           ← Späť na úvod
         </Link>
-        <h1 className="mt-4 text-3xl font-bold tracking-tight text-taxi-cream sm:text-4xl">
+        <h1 className="mt-4 text-2xl font-bold tracking-tight text-taxi-cream sm:text-3xl md:text-4xl">
           Prečo pre transformáciu City Taxi zvoliť práve BeCode?
         </h1>
         <p className="mt-4 text-lg text-taxi-cream/90">{intro.text}</p>
@@ -32,7 +32,7 @@ export default function BecodePage() {
         {pillars.map((pillar) => (
           <article
             key={pillar.id}
-            className="rounded-2xl border border-taxi-slate/50 bg-taxi-charcoal/40 p-6 sm:p-8"
+            className="rounded-2xl border border-taxi-slate/50 bg-taxi-charcoal/40 p-4 sm:p-6 md:p-8"
           >
             <div className="flex flex-wrap items-start gap-4">
               <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-taxi-gold/20 text-xl font-bold text-taxi-gold">

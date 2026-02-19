@@ -36,7 +36,7 @@ export function CompareSelect({
   }, []);
 
   return (
-    <div ref={ref} className="relative min-w-[220px] flex-1">
+    <div ref={ref} className="relative w-full min-w-0 flex-1 sm:min-w-[200px]">
       <label htmlFor={id} className="block text-sm font-medium text-taxi-cream/90">
         {label}
       </label>
@@ -47,7 +47,7 @@ export function CompareSelect({
         aria-expanded={open}
         aria-label={label}
         onClick={() => setOpen((o) => !o)}
-        className="mt-1.5 flex w-full items-center justify-between gap-2 rounded-xl border border-taxi-slate/50 bg-taxi-dark px-4 py-3 text-left text-taxi-cream shadow-sm transition hover:border-taxi-slate hover:bg-taxi-slate/10 focus:border-taxi-gold focus:outline-none focus:ring-2 focus:ring-taxi-gold/40"
+        className="mt-1.5 flex w-full min-h-[48px] items-center justify-between gap-2 rounded-xl border border-taxi-slate/50 bg-taxi-dark px-4 py-3 text-left text-taxi-cream shadow-sm transition hover:border-taxi-slate hover:bg-taxi-slate/10 focus:border-taxi-gold focus:outline-none focus:ring-2 focus:ring-taxi-gold/40"
       >
         <span className={selected ? "font-medium" : "text-taxi-cream/60"}>
           {selected ? selected.name : placeholder}
@@ -68,7 +68,7 @@ export function CompareSelect({
         <ul
           role="listbox"
           aria-label={label}
-          className="absolute z-20 mt-1 max-h-[280px] w-full overflow-auto rounded-xl border border-taxi-slate/50 bg-taxi-charcoal py-1 shadow-xl ring-1 ring-black/20"
+          className="absolute z-20 mt-1 max-h-[50vh] w-full overflow-auto rounded-xl border border-taxi-slate/50 bg-taxi-charcoal py-1 shadow-xl ring-1 ring-black/20 sm:max-h-[280px] [-webkit-overflow-scrolling:touch]"
         >
           {options.map((c) => {
             const isDisabled = disabledIds.includes(c.id);

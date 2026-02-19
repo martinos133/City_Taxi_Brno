@@ -16,7 +16,7 @@ export default function KonkurentiPage() {
         >
           ← Späť na úvod
         </Link>
-        <h1 className="mt-4 text-3xl font-bold tracking-tight text-taxi-cream sm:text-4xl">
+        <h1 className="mt-4 text-2xl font-bold tracking-tight text-taxi-cream sm:text-3xl md:text-4xl">
           10 konkurentov na trhu
         </h1>
         <p className="mt-2 text-taxi-cream/80">
@@ -28,7 +28,7 @@ export default function KonkurentiPage() {
         {competitors.map((c, i) => (
           <article
             key={c.id}
-            className="gradient-card animate-fade-in rounded-2xl border border-taxi-slate/50 p-6 sm:p-8"
+            className="gradient-card animate-fade-in rounded-2xl border border-taxi-slate/50 p-4 sm:p-6 md:p-8"
             style={{ animationDelay: `${i * 0.05}s` }}
           >
             <div className="flex flex-wrap items-baseline justify-between gap-2">
@@ -52,7 +52,7 @@ export default function KonkurentiPage() {
 
             <p className="mt-4 text-taxi-cream/90">{c.message}</p>
 
-            <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="mt-4 grid gap-4 sm:mt-6 sm:grid-cols-2 sm:gap-6 lg:grid-cols-3">
               <div>
                 <h3 className="text-xs font-semibold uppercase tracking-wider text-taxi-gold">
                   Emócie a hodnoty
